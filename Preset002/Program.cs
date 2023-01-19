@@ -24,5 +24,5 @@ else if (a == 6)
 else if (a == 7)
   Console.WriteLine("Это воскресенье ");
   
-else Console.WriteLine("Введено некорекное число ");
+else Console.WriteLine("Введено некоррекное число ");
 
