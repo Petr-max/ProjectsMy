@@ -32,6 +32,6 @@ switch (namber)
     Console.WriteLine("Это воскрессенье: ");
     break;
   default:
-    Console.WriteLine("Введено некоректное значение: ");
+    Console.WriteLine("Введено некорректное значение: ");
     break;
 }
