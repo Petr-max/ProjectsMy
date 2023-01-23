@@ -6,10 +6,10 @@
 // a = 2, b = 10 -> max = 10
 // a = -9, b = -3 -> max = -3
 
-Console.WriteLine("Введите число A: ");
+Console.WriteLine("Введите число a: ");
 int a = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Введите число B: ");
+Console.WriteLine("Введите число b: ");
 int b = Convert.ToInt32(Console.ReadLine());
 
 int max = a;
