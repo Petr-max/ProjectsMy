@@ -7,19 +7,22 @@
 // a = -9, b = -3 -> max = -3
 
 Console.WriteLine("Введите число A: ");
-int A = Convert.ToInt32(Console.ReadLine());
+int a = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Введите число B: ");
-int B = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
 
-int max = A;
-int min = A;
+int max = a;
+int min = a;
 
-if (A > max) max = A;
-if (B > max) max = B;
-if (A < min) min = A;
-if (B < min) min = B;
-
+if (a > b)
+{
+  max = a; min = b;
+}
+else
+{
+  max = b; min = a;
+}
 Console.Write("max = ");
 Console.WriteLine(max);
 Console.Write("min = ");
