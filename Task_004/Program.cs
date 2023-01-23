@@ -8,17 +8,17 @@
 // 22,3,9 -> 22
 
 Console.WriteLine("Введите число A: ");
-int A = Convert.ToInt32(Console.ReadLine());
+int a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число B: ");
-int B = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число C: ");
-int C = Convert.ToInt32(Console.ReadLine());
+int c = Convert.ToInt32(Console.ReadLine());
 
-int max = A;
+int max = a;
 
-if (A > max) max = A;
-if (B > max) max = B;
-if (C > max) max = C;
+if (a > max) max = a;
+if (b > max) max = b;
+if (c > max) max = c;
 
 
 Console.Write("max = ");
