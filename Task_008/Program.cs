@@ -7,12 +7,12 @@
 // 5 -> 2, 4.
 // 8 -> 2, 4, 6, 8.
 
-Console.WriteLine("Введите число от одного до 100. ");
+Console.WriteLine("Введите число (N) от одного до 100. ");
 int n = Convert.ToInt32(Console.ReadLine());
 
 for (int i = 2; i <= n; i += 2)
   if (n < 101)
-    Console.Write(i);
+    Console.Write(-i);
 if (n > 100)
   Console.WriteLine("Введенное значение неверно. ");
 
